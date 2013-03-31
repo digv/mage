@@ -2,3 +2,4 @@ var/
 var
 downloader/
 media/catalog/product
+app/etc/local.xml
