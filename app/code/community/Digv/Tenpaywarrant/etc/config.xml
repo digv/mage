@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Digv_Tenpaywarrant>
+            <version>1.6.0.0.1</version>
+        </Digv_Tenpaywarrant>
+    </modules>
+    <frontend>
+        <routers>
+            <Tenpaywarrant>
+                <use>standard</use>
+                <args>
+                    <module>Digv_Tenpaywarrant</module>
+                    <frontName>tenpaywarrant</frontName>
+                </args>
+            </Tenpaywarrant>
+        </routers>
+        <!--<translate>
+            <modules>
+                <Mage_Cms>
+                    <files>
+                        <default>Mage_Cms.csv</default>
+                    </files>
+                </Mage_Cms>
+            </modules>
+        </translate>-->
+    </frontend>
+</config>
