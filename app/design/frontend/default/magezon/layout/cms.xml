@@ -59,6 +59,9 @@ Default layout, loads most of the pages
 
     <cms_index_index translate="label">
         <label>CMS Home Page</label>
+        <reference name="head">
+            <action method="removeItem"><type>js</type><name>varien/menu.js</name></action>
+        </reference>
     </cms_index_index>
 
     <cms_index_defaultindex>
